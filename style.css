@@ -1,0 +1,151 @@
+
+/*CSS reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  list-style-type: none;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: grey;
+  color: white;
+}
+
+#site{
+  width:80%;
+  /*margin:0 auto;*/
+  
+}
+body{
+  
+  font-family: 'Zen Maru Gothic', sans-serif;
+  color:lightgrey;
+  background-color:rgb(196, 195, 198);
+ 
+}
+
+#img1{
+  width:340px;
+  box-shadow: 5px 5px 12px gray;
+  border-radius:15px;
+  transition: all 0.5s ease-in-out;
+  min-width:290px;
+  
+}
+img:hover{
+  transform: scale(1.015);
+  
+}
+
+figure{
+  
+  max-width:300px;
+  margin:25px 15px;
+  float:left;
+  
+}
+
+#first-half{
+  /*background-color:lightblue;*/
+  padding-left:40px;
+  padding-top:30px;
+  margin-bottom:50px;
+  float:left;
+  height:700px;
+  border-radius:15px;
+}
+
+#data{
+  background-color:grey;
+  float:left;
+  padding:20px;
+  border-radius:15px;
+  margin-right:70px;
+  margin-left:80px;
+  margin-top:25px;
+  margin-bottom:25px;
+ 
+  font-size:1.14rem;
+  
+}
+strong{
+  color:white;
+}
+
+
+#second-half{
+  float:left;
+  /*background-color:lightblue;*/
+  padding-left:40px;
+  font-size:1.15rem;
+  padding-top:30px;
+  margin-bottom:25px;
+}
+
+
+#contact,#about,#gif{
+  padding:17px;
+  border-radius:15px;
+  background-color:purple;
+  margin-top:25px;
+  margin-right:35px;
+  margin-left:15px;
+  max-width:500px;
+  
+}
+
+/*#contact{
+  max-width:380px;
+}
+#about{
+  max-width:380px;
+  
+}*/
+
+li {
+  display: inline;
+}
+
+a{
+  color:white;
+}
+
+#gif{
+  height:220px;
+  width:70%;
+  float:left;
+  min-width:320px;
+}
+#img2{
+  transition: all 0.5s ease-in-out;
+  min-width:290px;
+  padding:0 15px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+  height:100%;
+  
+}
+ 
